@@ -1,0 +1,43 @@
+@media print, screen and (max-width: 850px) {
+	.large-up-4 > .column, .large-up-4 > .columns {
+    float: left;
+    width: 100%; }
+    .description h4{
+    	margin-left: 20px;
+    }
+    .description p{
+    	text-align: left;
+    	margin-left: 5px;
+    }
+    i.fi-plus{
+      font-size: 100px;
+      text-align: center;
+      color:rgb(157,155,166);
+    }
+    #plus.column{
+      width: 100%;
+      text-align: center;
+    }
+}
+@media print, screen and (min-width: 851px ) and (max-width: 1280px ) {
+    .large-up-4 > .column, .large-up-4 > .columns {
+    float: left;
+    width: 50%; }
+    .description h4{
+        margin-left: 40px;
+    }
+    .description p{
+        text-align: left;
+        margin-left: 10px;
+    }
+    i.fi-plus{
+      font-size: 100px;
+      text-align: center;
+      color:rgb(157,155,166);
+    }
+    #plus.column{
+        width: 50%;
+        text-align: center;
+        margin-top: 0;
+    }
+}

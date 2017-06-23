@@ -1,0 +1,24 @@
+@media print, screen and (max-width: 850px) {
+	.large-up-4 > .column, .large-up-4 > .columns {
+    float: left;
+    width: 100%; }
+    .description h4{
+    	margin-left: 20px;
+    }
+    .description p{
+    	text-align: left;
+    	margin-left: 5px;
+    }
+}
+@media print, screen and (min-width: 851px ) and (max-width: 1280px ) {
+    .large-up-4 > .column, .large-up-4 > .columns {
+    float: left;
+    width: 50%; }
+    .description h4{
+        margin-left: 40px;
+    }
+    .description p{
+        text-align: left;
+        margin-left: 10px;
+    }
+}
